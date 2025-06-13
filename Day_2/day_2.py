@@ -42,7 +42,7 @@ print(Hello)
 
 #Assignment operators -> =, +=, -=, *=, /=, %=, **=, //=
 #Example:
-#x = 1 -> output: 1  - assignment
+#x = 1 -> output: 1  - assignment 
 #x += 1 -> output: 2 - addition assignment
 #x -= 1 -> output: 0  - subtraction assignment
 #x *= 1 -> output: 1 - multiplication assignment
@@ -52,7 +52,7 @@ print(Hello)
 #x //= 1 -> output: 1 - floor division assignment
 
 #Comparison operators - ==, !=, >, <, >=, <=
-#Example:
+#Example: -> True or False - boolean value 
 #print(1 == 2) -> output: False - equal to
 #print(1 != 2) -> output: True - not equal to
 #print(1 > 2) -> output: False - greater than
@@ -65,19 +65,21 @@ print(Hello)
 #print(1 and 2) -> output: 2 - and
 #print(1 or 2) -> output: 1 - or
 #print(not 1) -> output: False - not
+#print(not(a > b ))
+
 
 #Identity operators - is, is not
-#Example:
+#Example: -> it check ram location 
 #print(1 is 2) -> output: False - is
 #print(1 is not 2) -> output: True - is not
 
 #Membership operators - in, not in
-#Example:
+#Example: -> Iterable data (Group data)
 #print(1 in [1, 2, 3]) -> output: True - in
 #print(1 not in [1, 2, 3]) -> output: False - not in
 
 #Bitwise operators - &, |, ^, ~, <<, >>
-#Example:
+#Example: 
 #print(1 & 2) -> output: 0 - bitwise and
 #print(1 | 2) -> output: 3 - bitwise or
 #print(1 ^ 2) -> output: 3 - bitwise xor
@@ -85,6 +87,8 @@ print(Hello)
 #print(1 << 2) -> output: 4 - bitwise left shift
 #print(1 >> 2) -> output: 0 - bitwise right shift
 
+# c = 1 << 2
+# print(c)
 #----------------------------------------------------------------
 
 #+ can be used to concatenate strings
