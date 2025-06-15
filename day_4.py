@@ -37,23 +37,63 @@
 #According to the operator user provides perform the operation with two numbers and print the value
 
 
-first_num = input("Enter first number: ")
-second_num = input("Enter second number: ")
+# first_num = input("Enter first number: ")
+# second_num = input("Enter second number: ")
 
-operator = input("Enter operator (+, -, *, /): ")
+# operator = input("Enter operator (+, -, *, /): ")
 
-if operator == '+':
-    result = float(first_num) + float(second_num)
-    print(result)
+# if operator == '+':
+#     result = float(first_num) + float(second_num)
+#     print(result)
     
-elif operator == '-':
-    result = float(first_num) - float(second_num)
-    print(result)
-elif operator == '*':
-    result = float(first_num) * float(second_num)
-    print(result)
-elif operator == "/":
-    result = float(first_num) / float(second_num)
-    print(result)
-else:
-    print("invalid operator")
+# elif operator == '-':
+#     result = float(first_num) - float(second_num)
+#     print(result)
+# elif operator == '*':
+#     result = float(first_num) * float(second_num)
+#     print(result)
+# elif operator == "/":
+#     result = float(first_num) / float(second_num)
+#     print(result)
+# else:
+#     print("invalid operator")
+
+
+
+# -------------------LOOP STATEMENT(run multiple times)-----------------------------------------
+# for loop (iterative loop) (run until the condition is false) (if you know the number of iterations)
+a = 5
+b = 0
+for i in range(a):
+    print("hello" + " ", i)
+
+# while loop(conditional loop) (run until the condition is true) (if you don't know the number of iterations)
+while a > b:
+    # print('Hello world')
+    b += 1
+
+# Key_word in loops
+# Break and continue
+
+while True:
+    print("Hello")
+    print("Hello 2")
+    break
+    
+count = 1
+while  True:
+    print("HI")
+    if count == 5:
+        break
+    count +=1
+
+
+# --- Try once ---
+a = 5
+b = 0
+while a > b:
+    b += 1
+    if b == 2:
+        continue
+    print("HELLO")
+    
