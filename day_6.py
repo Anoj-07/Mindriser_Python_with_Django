@@ -74,5 +74,10 @@ print(a)
 
 
 #----------------------------Task--------------------------------------------
-a=['Hello', 'world', 'Python', 'course', 'Django']
+# a=['Hello', 'world', 'Python', 'course', 'Django']
+# for i in a:
+#     print(i)
 
+#-------------Today task outPut
+a = ['Hello', 'world', 'Python', 'course', 'Django']
+list(map(print, a))
