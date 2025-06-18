@@ -78,3 +78,5 @@ print(b)
 
 c = my_data6[-1 : -3 : -1]
 print(c)
+
+

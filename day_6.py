@@ -80,4 +80,11 @@ print(a)
 
 #-------------Today task outPut
 a = ['Hello', 'world', 'Python', 'course', 'Django']
-list(map(print, a))
+print(a[0])
+
+# list(map(print, a))
+
+i = 0
+while i < len(a):
+    print(a[i])
+    i += 1
