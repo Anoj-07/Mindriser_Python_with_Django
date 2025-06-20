@@ -35,20 +35,21 @@ for i in a:
 # Hello()
 
 # -------Parameter and Arguments in functions----------
-# def Hello_name(a, b):
-#     print(a + b)
+def Hello_name(a, b):
+    print(a + b)
 
-# Hello_name(20, 40)
+Hello_name(20, 40) # positional arguments
+Hello_name(b=40, a=20) # keyword arguments
 
 
-a = 5
-b = 6
-def add(num1, num2):
-    print(num1 + num2)
+# a = 5
+# b = 6
+# def add(num1, num2):
+#     print(num1 + num2)
 
-add(a, b)
+# add(a, b)
 
-c = 3
-d = 8
+# c = 3
+# d = 8
 
-add(c, d)
+# add(c, d)
