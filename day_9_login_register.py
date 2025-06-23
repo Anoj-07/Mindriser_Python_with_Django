@@ -53,8 +53,7 @@ elif user_choice == '2':
         if user_dict_data.get('username') == user_username and user_dict_data.get('password') == user_password:
             print("Login Successful")
             break
-    else:
-        
+    else:    
         print("Invalid username or password")            
     
 else:
