@@ -1,1 +1,0 @@
-{"username": "Anoj", "password": "Rawal123"}-{"username": "Admin", "password": "admin098", "type": "buyer"}-{"username": "Admin", "password": "admin234", "type": "buyer"}-{"username": "seller1", "password": "seller123", "type": "seller"}-

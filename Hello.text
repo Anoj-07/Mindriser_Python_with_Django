@@ -1,1 +1,11 @@
 Hi my name is Anoj Rawal. I am learning python and Django framework.I am appending this fileI am appending this file
+
+
+✅ 3. View Bills
+If a buyer purchases a product, store a bill entry in bills.txt:
+
+Include: product_name, quantity, price, buyer, seller, timestamp.
+
+In this seller option, filter bills where seller == current_seller_username.
+
+💡 Hint: Use json.loads(line) to parse each bill entry, then match seller.
