@@ -9,3 +9,8 @@ Include: product_name, quantity, price, buyer, seller, timestamp.
 In this seller option, filter bills where seller == current_seller_username.
 
 💡 Hint: Use json.loads(line) to parse each bill entry, then match seller.
+
+
+
+
+@tag:nextEditSuggestions
