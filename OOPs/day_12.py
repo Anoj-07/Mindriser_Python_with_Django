@@ -64,4 +64,34 @@ class Car:
 
 car = Car()
 
-print(car.__dir__())  # shows all the attributes and methods of the class
+# __perdefineName__ => magic method, it is used to get the name of the class
+# print(car.__dir__())  # shows all the attributes and methods of the class
+
+# __init__() - constructor 
+
+class Car:
+    name = 'volvo'
+    price = '20M'
+    max_speed = '300 km/hr'
+
+    def __int__(self): # can be overridden
+        print('This is a constructor')
+
+car1 = Car()
+car1.__int__()  # This will not work as __int__ is not a valid constructor name, it should be __init__
+
+#Exmaple 2:
+class Cars:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def __str__(self):
+        return f'Car Name: {self.name}, Price: {self.price}'
+
+car1 = Cars('BMW', '20M')
+car2 = Cars('Audi', '30M')
+
+print(car1.name)
+print(car2.name, car2.price)
+print(car1)
