@@ -1,0 +1,7 @@
+# Git hub - Remote platform which uses git system
+- It provides collaboration and version control
+- It is a web based cloud platform
+
+# Git - Local platform which uses git system
+
+SSH SetUp 
